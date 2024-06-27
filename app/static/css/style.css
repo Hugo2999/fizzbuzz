@@ -1,0 +1,29 @@
+:root {
+    --color-text: rgb(120, 54, 182);
+    --color-background: rgb(36, 35, 35);
+}
+
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: Black Ops One;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.header, .info, .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info {
+    line-height: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
